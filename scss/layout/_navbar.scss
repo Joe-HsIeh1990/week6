@@ -1,0 +1,18 @@
+.navbar {
+    padding-top: 24px;
+    &-brand {
+        color: #121212 !important;
+        font-family: "Raleway", sans-serif;
+        font-size: 24px;
+    }
+    .nav-item {
+        a {
+            margin-right: 40px;
+        }
+
+        img {
+            width: 24px;
+            height: 24px;
+        }
+    }
+}

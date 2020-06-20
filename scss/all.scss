@@ -1,0 +1,19 @@
+@import "helper/myvariables";
+@import "../node_modules/bootstrap/scss/functions";
+@import "./helper/variables"; 
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "base/base"; 
+@import "helper/util"; 
+
+// layout 
+@import "layout/navbar";
+@import "layout/footer";
+
+
+// pages
+@import "pages/home";     
+
+//mod
+@import "swiper";
+    

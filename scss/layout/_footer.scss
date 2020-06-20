@@ -1,0 +1,64 @@
+.foot {
+    &-top {
+        background: url("../../images/footer.jpg") 0% 50% no-repeat;
+        background-size: cover;
+        height: 400px;
+        &-container{
+            height: 100%;
+        }
+        &-title{
+            height: 100%;
+        }
+        h2{
+           font-size: 48px;
+           line-height: 64px; 
+        }
+        &-form{
+            margin-top: 48px;
+        }
+    }
+    &-bottom{
+        height: 93px;
+        background-color: #000000;
+        &-container{
+            height: 100%;
+            ul{
+                height: inherit;
+            }
+        }
+        &-list{
+            h4{
+                font-family: "Raleway", sans-serif;
+            }
+        }
+    }
+}
+input[type=text]{
+    width: 268px;
+    height: 56px;
+    background: none;
+    border: 1px solid #FFFFFF99;
+    color: #FFFFFF99;
+}
+input[type=submit]{
+    width: 160px;
+    height: 56px;
+    background: #0E8A00;
+    border: 1px solid #0E8A00;
+    color: #FFFFFF;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #FFFFFF99;
+    padding-left: 16px;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #FFFFFF99;
+    padding-left: 16px;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #FFFFFF99;
+    padding-left: 16px;
+  }
+  
